@@ -17,7 +17,8 @@ int main(void) {
             case 2:
                 sq2++;
                 break;
-        }
+
+        } printf("\nil punteggio corrente e' (%d - %d)", sq1, sq2);
     } while (scelta != 0);
     printf("la partita e' finita.\n");
     if (sq1==sq2){
